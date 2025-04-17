@@ -60,7 +60,7 @@ import appstore from "../../../public/images/appstore.png";
 import naukri from "../../../public/images/naukri.png";
 import Link from 'next/link';
 import { faSquareFacebook, faSquareTwitter, faSquareYoutube, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-export default function bhk() {
+export default function Bhk() {
     useEffect(() => {
         import('../../../node_modules/bootstrap/dist/js/bootstrap.js')
     }, [])
