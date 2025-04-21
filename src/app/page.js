@@ -717,7 +717,7 @@ export default function Home() {
               <div className="inner">
                 <div className="line1">
                   <div className="heading">
-                    Recommended Properties
+                   Bhart Dhot
                   </div>
                   <div className="sm-heading">
                     Curated especially for you

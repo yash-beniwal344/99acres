@@ -72,7 +72,7 @@ export default function Bhk() {
                         <div className="row align-items-center">
                             <div className="col-2 ">
                                 <div className="img">
-                                    <Image src={logo} width={120} style={{ height: "auto" }} alt='logo' />
+                                <Link href="/">  <Image src={logo} width={120} style={{ height: "auto" }} alt='logo' /></Link>  
                                 </div>
                             </div>
                             <div className="col-6">
@@ -915,11 +915,11 @@ export default function Bhk() {
                                             <div className="input-group  bg-white">
                                                 <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">India (+91)</button>
                                                 <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                                    <li><Link className="dropdown-item" href="#">Action</Link></li>
+                                                    <li><Link className="dropdown-item" href="#">Another action</Link></li>
+                                                    <li><Link className="dropdown-item" href="#">Something else here</Link></li>
                                                     <li><hr className="dropdown-divider" /></li>
-                                                    <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                                    <li><Link className="dropdown-item" href="#">Separated link</Link></li>
                                                 </ul>
                                                 <input type="text" placeholder="phone numbar" className="form-control" aria-label="Text input with dropdown button" />
                                             </div>
