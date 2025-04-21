@@ -6,7 +6,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import nearme from "../../../public/images/near me.png";
 import mick from "../../../public/images/mick.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faArrowRight, faBarsStaggered, faCircleInfo, faHeart, faHourglassStart, faMagnifyingGlass, faPhone, faPlay, faThumbsUp, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faArrowRight, faBarsStaggered, faBolt, faChartLine, faCircleInfo, faCity, faHeart, faHourglassStart, faInfo, faMagnifyingGlass, faPhone, faPlay, faStar, faThumbsDown, faThumbsUp, faTicket, faTrainSubway, faUser } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
 import vdh from "../../../public/images/lavishfloor/vdh.png"
@@ -33,7 +33,22 @@ import offer from "../../../public/images/NL_Tag.png";
 import bilding4 from "../../../public/images/bilding4.jpg";
 import morereview from "../../../public/images/lavishfloor/writeNewReview.png";
 import readimg from "../../../public/images/lavishfloor/img_010.png";
-
+import Environment from "../../../public/images/icon/Environment.png";
+import Safety from "../../../public/images/icon/Safety.png";
+import Lifestyle from "../../../public/images/icon/Lifestyle.png";
+import Connectivity from "../../../public/images/icon/Connectivity.png";
+import banks from "../../../public/images/lavishfloor/banks.png";
+import lic from "../../../public/images/lavishfloor/lic.png";
+import indiabulls from "../../../public/images/lavishfloor/indiabulls.jpg";
+import iifl from "../../../public/images/lavishfloor/iifl.jpg";
+import div1img1 from "../../../public/images/intrest1.jpg";
+import div1img2 from "../../../public/images/intrest2.jpg";
+import div1img3 from "../../../public/images/intrest3.jpg";
+import div1img4 from "../../../public/images/intrest4.jpg";
+import playstore from "../../../public/images/playstore.png";
+import appstore from "../../../public/images/appstore.png";
+import naukri from "../../../public/images/naukri.png";
+import { faSquareFacebook, faSquareTwitter, faSquareYoutube, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 export default function lavish() {
 
     return (
@@ -880,48 +895,858 @@ export default function lavish() {
                                     <button>Sector 15 Dwarka, Delhi Overview</button>
                                 </div>
                             </div>
-                            <div className="btns d-flex gap-2 flex-wrap">
+                            <div className="btns d-flex gap-2 flex-wrap" style={{ margin: "10px 0" }}>
                                 <div>#28 in Top 100 in Delhi South West</div>
                                 <div>Affordable Locality</div>
                             </div>
                             <div className="row m-0 p-0">
                                 <div className="col-12 col-md-8 p-0">
                                     <div className="box-row d-flex flex-wrap ">
-                                        <div className="box" style={{borderRight:"1px solid #ebecf0"}}>
+                                        <div className="box" style={{ borderRight: "1px solid #ebecf0" }}>
                                             <div className="head d-flex">
                                                 <div className="logo">
-                                                <FontAwesomeIcon icon={faThumbsUp} style={{color:"#ffbf69"}}/>
+                                                    <FontAwesomeIcon icon={faThumbsUp} style={{ color: "#ffbf69" }} />
                                                 </div>
                                                 <div className="heading">
-                                                What's great here!
+                                                    What's great here!
                                                 </div>
                                             </div>
                                             <div className="line">
                                                 <div className="logo">
-
+                                                    <FontAwesomeIcon icon={faChartLine} />
                                                 </div>
                                                 <div className="text">
-                                                An affordable locality offering builder floors in the 3 BHK configuration, followed by 2 BHK units
+                                                    An affordable locality offering builder floors in the 3 BHK configuration, followed by 2 BHK units
                                                 </div>
                                             </div>
                                             <div className="line">
                                                 <div className="logo">
-
+                                                    <FontAwesomeIcon icon={faTrainSubway} />
                                                 </div>
                                                 <div className="text">
+                                                    Dwarka Mor Metro Station on the Blue Line between Noida Electronic City/Vaishali and Dwarka Sector-21 is a km away
+                                                </div>
+                                            </div>
+                                            <div className="line">
+                                                <div className="logo">
+                                                    <FontAwesomeIcon icon={faTicket} />
+                                                </div>
+                                                <div className="text">
+                                                    Close to prominent universities such as NSIT and GGSIPU within a 4 km distance
+                                                </div>
+                                            </div>
+                                            <div className="line">
+                                                <div className="logo">
+                                                    <FontAwesomeIcon icon={faCity} />
+                                                </div>
+                                                <div className="text">
+                                                    Vegas, City Centre, Soul City, Aggarwal, and Unity One Mall are the famous shopping destinations within a 5 km radius...
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="box">
+                                            <div className="head d-flex">
+                                                <div className="logo">
+                                                    <FontAwesomeIcon icon={faThumbsDown} style={{ color: "#ffbf69" }} />
+                                                </div>
+                                                <div className="heading">
+                                                    What needs attention!
+                                                </div>
+                                            </div>
+                                            <div className="line">
+                                                <div className="logo">
+                                                    <FontAwesomeIcon icon={faBolt} />
+                                                </div>
+                                                <div className="text">
+                                                    People living in certain parts of Sector-15 Dwarka have complained about power cuts
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className="review">
+                        <div className="inner">
+                            <div className="heading-sec mb-5 d-flex align-items-center justify-content-between">
+                                <div className="left">
+                                    <div className="heading">
+                                        Locality Reviews
+                                    </div>
+                                    <div className="sm-heading">
+                                        for Sector 8 Dwarka, Delhi
+                                    </div>
+                                </div>
+                                <div className="right">
+                                    <button>Review Your Society/Locality</button>
+                                </div>
+                            </div>
+                            <div className="review-box">
+                                <div className="row m-0">
+                                    <div className="col-12 col-md-3 p-0">
+                                        <div className="in">
+                                            <div className="point d-flex align-items-baseline justify-content-center">
+                                                <div className="big">
+                                                    4.3
+                                                </div>
+                                                <div className="small">
+                                                    /5
+                                                </div>
+                                            </div>
+                                            <div className="starts mb-2 text-success text-center ">
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                                <FontAwesomeIcon icon={faStar} />
+                                            </div>
+                                            <div className="total">
+                                                Average Rating <br />
+                                                <span>(93 Total Reviews)</span>
+                                            </div>
+                                            <div className="progres opacity-75">
+                                                <div className="line d-flex align-items-center gap-2" >
+                                                    <div className="progress w-100" style={{ height: "8px" }} role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        <div className="progress-bar" style={{ width: "45%" }}></div>
+                                                    </div>
+                                                    <div className="number">
+                                                        5
+                                                    </div>
+                                                    <div className="start align-middle" style={{ fontSize: "14px" }}>
+                                                        ★
+                                                    </div>
+                                                </div>
+                                                <div className="line d-flex align-items-center gap-2" >
+                                                    <div className="progress w-100" style={{ height: "8px" }} role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        <div className="progress-bar" style={{ width: "45%" }}></div>
+                                                    </div>
+                                                    <div className="number">
+                                                        4
+                                                    </div>
+                                                    <div className="start align-middle" style={{ fontSize: "14px" }}>
+                                                        ★
+                                                    </div>
+                                                </div>
+                                                <div className="line d-flex align-items-center gap-2" >
+                                                    <div className="progress w-100" style={{ height: "8px" }} role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        <div className="progress-bar" style={{ width: "15%" }}></div>
+                                                    </div>
+                                                    <div className="number">
+                                                        3
+                                                    </div>
+                                                    <div className="start align-middle" style={{ fontSize: "14px" }}>
+                                                        ★
+                                                    </div>
+                                                </div>
+                                                <div className="line d-flex align-items-center gap-2" >
+                                                    <div className="progress w-100" style={{ height: "8px" }} role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        <div className="progress-bar" style={{ width: "10%" }}></div>
+                                                    </div>
+                                                    <div className="number">
+                                                        2
+                                                    </div>
+                                                    <div className="start align-middle" style={{ fontSize: "14px" }}>
+                                                        ★
+                                                    </div>
+                                                </div>
+                                                <div className="line d-flex align-items-center gap-2" >
+                                                    <div className="progress w-100" style={{ height: "8px" }} role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        <div className="progress-bar" style={{ width: "0%" }}></div>
+                                                    </div>
+                                                    <div className="number">
+                                                        1
+                                                    </div>
+                                                    <div className="start align-middle" style={{ fontSize: "14px" }}>
+                                                        ★
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="link mt-2">
+                                                <Link href="/" className=' text-decoration-none'>See how ratings are calculated</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-9 p-0">
+                                        <div className="in">
+                                            <div className="heading-sec">
+                                                Ratings by Features <span><FontAwesomeIcon icon={faCircleInfo} /></span>
+                                            </div>
+                                            <div className="img-line d-flex align-items-center flex-wrap">
+                                                <div className="ratingby d-flex align-items-center">
+                                                    <div className="img">
+                                                        <Image src={Environment} alt="ratingby" />
+                                                    </div>
+                                                    <div className="text">
+                                                        <div className="heading">
+                                                            Environment
+                                                        </div>
+                                                        <div className="sm-heading">
+
+                                                            4.2 out of 5
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="ratingby d-flex align-items-center">
+                                                    <div className="img">
+                                                        <Image src={Lifestyle} alt="ratingby" />
+                                                    </div>
+                                                    <div className="text">
+                                                        <div className="heading">
+                                                            Lifestyle
+
+
+                                                        </div>
+                                                        <div className="sm-heading">
+
+                                                            4.1 out of 5
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="ratingby d-flex align-items-center">
+                                                    <div className="img">
+                                                        <Image src={Connectivity} alt="ratingby" />
+                                                    </div>
+                                                    <div className="text">
+                                                        <div className="heading">
+                                                            Connectivity
+
+                                                        </div>
+                                                        <div className="sm-heading">
+                                                            4.3 out of 5
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="ratingby d-flex align-items-center">
+                                                    <div className="img">
+                                                        <Image src={Safety} alt="ratingby" />
+                                                    </div>
+                                                    <div className="text">
+                                                        <div className="heading">
+                                                            Safety
+                                                        </div>
+                                                        <div className="sm-heading">
+                                                            4.2 out of 5
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="space32">
+
+                                            </div>
+                                            <div className="list_header">
+                                                Popular Mentions
+                                            </div>
+                                            <div className="space32">
+
+                                            </div>
+                                            <div className="ratingleval d-flex align-items-center">
+                                                <div className="positiveline w-75 gap-1   d-flex">
+                                                    <div className="big">
+
+                                                    </div>
+                                                    <div className="small">
+
+                                                    </div>
+
+                                                </div>
+                                                <div className="mentions fw-medium" style={{ color: "#2e7b32" }}>
+                                                    98% Positive Mentions
+                                                </div>
+                                            </div>
+                                            <div className="space20"></div>
+                                            <div className="like d-flex " >
+                                                <div className="left d-flex " style={{ fontSize: "20px" }}>
+                                                    <FontAwesomeIcon icon={faThumbsUp} style={{ marginRight: "8px", paddingTop: "4px" }} /> Likes
+                                                </div>
+                                                <div className="right d-flex flex-wrap px-4">
+                                                    <div className="comment">
+                                                        Good Public Transport (63)
+                                                    </div>
+                                                    <div className="comment">
+                                                        Metro Connectivity nearby (55)
+                                                    </div>
+                                                    <div className="comment">
+                                                        Easy Cab/Auto Availability (42)
+                                                    </div>
+                                                    <div className="comment">
+                                                        Good Schools are nearby (32)
+                                                    </div>
+                                                    <div className="comment">
+                                                        Well-maintained Roads (28)
+                                                    </div>
+                                                    <div className="comment">
+                                                        Markets at a walkable distance (26)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="space20"></div>
+                                            <div className="like d-flex " >
+                                                <div className="left d-flex " style={{ fontSize: "20px" }}>
+                                                    <FontAwesomeIcon icon={faThumbsDown} style={{ marginRight: "8px", paddingTop: "7px" }} /> Dislikes
+                                                </div>
+                                                <div className="right d-flex flex-wrap px-4">
+                                                    <div className="comment">
+                                                        Frequent Traffic Jams (24)
+                                                    </div>
+                                                    <div className="comment">
+                                                        Frequent Parking Issues (18)
+                                                    </div>
 
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="box"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="rbr  d-flex align-items-center justify-content-between" style={{ padding: "16px 0" }}>
+                                <div className="left">
+                                    Locality Reviews
+                                </div>
+                                <div className="right">
+                                    <button>View all</button>
+                                </div>
+                            </div>
+                            <div className="filter d-flex flex-wrap">
+                                <div className="btn p-0">
+                                    <button>Recommended</button>
+                                </div>
+                                <div className="btn p-0">
+                                    <button>Negative First</button>
+                                </div>
+                                <div className="btn p-0">
+                                    <button>Recent First</button>
+                                </div>
+                            </div>
+                            <div className="review-comment">
+                                <div className="cards">
+                                    <div className="row m-0 p-0  align-items-stretch">
+                                        <div className="col-12 col-md-4 ">
+                                            <div className="inner m-0">
+                                                <div className="rating-point">
+                                                    5.0★
+                                                </div>
+                                                <div className="location">
+                                                    D Block Sector-8 Dwarka
+                                                </div>
+                                                <div className="type">
+                                                    Positives
+                                                </div>
+                                                <div className="comment">
+                                                    D Block, Sector 8 Dwarka, New Delhi, is recognized for its residential appeal, blending urban convenience with a community-centric environment. Residents apprec...<Link href="/">Show More</Link>
+                                                </div>
+                                                <div className="type">
+                                                    Negatives
+                                                </div>
+                                                <div className="comment">
+                                                    D Block, Sector 8 Dwarka faces several challenges, including irregular electricity and water supply, poor street lighting, and safety concerns due to limited po...<Link href="/">Show More</Link>
+                                                </div>
+                                                <div className="user mt-4 d-flex">
+                                                    <div className="logo">
+                                                        p
+                                                    </div>
+                                                    <div className="details">
+                                                        <div className="name">
+                                                            Priyaranjan
+
+                                                        </div>
+                                                        <div className="time">
+                                                            Owner (living since 3y) | Posted 1m ago
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 col-md-4 ">
+                                            <div className="inner m-0">
+                                                <div className="rating-point">
+                                                    5.0★
+                                                </div>
+                                                <div className="location">
+                                                    A Block Sector-8 Dwarka
+                                                </div>
+                                                <div className="type">
+                                                    Positives
+                                                </div>
+                                                <div className="comment">
+                                                    It offers a perfect blend of serenity and convenience. The A Block area stands out with its clean surroundings, well-maintained parks, and peaceful ambiance. Re...<Link href="/">Show More</Link>
+                                                </div>
+                                                <div className="type">
+                                                    Negatives
+                                                </div>
+                                                <div className="comment">
+                                                    The area can sometimes feel overcrowded, with traffic congestion being a common problem. Some streets are not as clean as they should be, and there is occasiona...<Link href="/">Show More</Link>
+                                                </div>
+                                                <div className="user mt-4 d-flex">
+                                                    <div className="logo">
+                                                        AS
+                                                    </div>
+                                                    <div className="details">
+                                                        <div className="name">
+                                                            Amit Baran Saha
+
+                                                        </div>
+                                                        <div className="time">
+
+                                                            Tenant (living since 3+y) | Posted 1m ago
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 col-md-4 ">
+                                            <div className="inner m-0">
+                                                <div className="rating-point">
+                                                    5.0★
+                                                </div>
+                                                <div className="location">
+                                                    B Block Sector-8 Dwarka
+                                                </div>
+                                                <div className="type">
+                                                    Positives
+                                                </div>
+                                                <div className="comment">
+                                                    C Block, Sector 8, Dwarka, in southwest Delhi, is a well-connected and convenient residential area. It offers easy access to public transport, including the Dwa...<Link href="/">Show More</Link>
+                                                </div>
+                                                <div className="type">
+                                                    Negatives
+                                                </div>
+                                                <div className="comment">
+                                                    C Block, Sector 8, Dwarka faces several challenges, including poor sanitation and waste management, safety concerns due to inadequate street lighting and police...<Link href="/">Show More</Link>
+                                                </div>
+                                                <div className="user mt-4 d-flex">
+                                                    <div className="logo">
+                                                        KK
+                                                    </div>
+                                                    <div className="details">
+                                                        <div className="name">
+                                                            Khushboo kumari
+
+                                                        </div>
+                                                        <div className="time">
+
+
+                                                            Former Resident (lived for 2y) | Posted 1m ago
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="feedback mt-4 mb-5">
+                                    <div className="row">
+                                        <div className="col-12 col-md-8">
+                                            <div className="row">
+
+                                                <div className="col-4 text-start">
+                                                    Is this helpful?Yes<FontAwesomeIcon icon={faThumbsUp} className='mx-2' />No<FontAwesomeIcon icon={faThumbsDown} className='mx-2' />
+                                                </div>
+                                                <div className="col-8 text-end">
+                                                    <button>Review Your Society/Locality</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+                    <div className="banks">
+                        <div className="box">
+                            <div className="modifaid">
+                                Last Modified on 18 Oct, 2022
+                            </div>
+                            <div className="bank-line d-flex pb-3">
+                                <div className="info" style={{ paddingLeft: "20px" }}>
+                                    <div className="img">
+                                        <Image src={banks} alt="banks" />
+                                    </div>
+                                    <div className="head">
+                                        Banks <span><FontAwesomeIcon icon={faInfo} /></span>
+                                    </div>
+                                    <div className="sm">
+                                        to help you with home loan
+                                    </div>
+                                </div>
+                                <div className="box">
+                                    <div className="img text-center">
+                                        <Image src={lic} alt="lic" />
+                                    </div>
+                                    <div className="sm-heading">
+                                        LIC Housing Finance Ltd
+                                    </div>
+                                    <div className="heading">
+                                        6.9% Interest
+                                    </div>
+                                </div>
+                                <div className="box">
+                                    <div className="img text-center">
+                                        <Image src={indiabulls} alt="lic" />
+                                    </div>
+                                    <div className="sm-heading">
+                                        8.65% Interest
+                                    </div>
+                                    <div className="heading">
+                                        indiabulls
+                                    </div>
+                                </div>
+                                <div className="box">
+                                    <div className="img text-center">
+                                        <Image src={iifl} alt="lic" />
+                                    </div>
+                                    <div className="sm-heading">
+                                        8.20% Interest
+                                    </div>
+                                    <div className="heading">
+                                        IIFL Home Loan
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="click">
+                            Looking for home loan? Click here <FontAwesomeIcon icon={faArrowRight} />
+                        </div>
+                    </div>
+                    <div className="about-v pb-5">
+                        <div className="heading">
+                            About Vaibhav Associates
+                        </div>
+                        <div className="space20">
+
+                        </div>
+                        <div className="img-line d-flex gap-2">
+                            <div className="img">
+                                <Image src={vaibhava} alt="vaibhava" />
+                            </div>
+                            <div className="text">
+                                Vaibhav Associates
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cards row">
+                        <div className="col-12 col-md-3">
+                            <div className="inner">
+                                <div className="img">
+                                    <Image src={div1img1} alt="div1img1" />
+                                </div>
+                                <div className="text">
+                                    <div className="heading">
+                                        Delhi govt mandates anti-smog guns
+                                    </div>
+                                    <div className="sm-heading">
+                                        Mar 03, 2025
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-3">
+                            <div className="inner">
+                                <div className="img">
+                                    <Image src={div1img2} alt="div1img1" />
+                                </div>
+                                <div className="text">
+                                    <div className="heading">
+                                        All about Delhi RERA new guidelines
+                                    </div>
+                                    <div className="sm-heading">
+                                        Jan 17, 2025
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-3">
+                            <div className="inner">
+                                <div className="img">
+                                    <Image src={div1img3} alt="div1img1" />
+                                </div>
+                                <div className="text">
+                                    <div className="heading">
+                                        Delhi metro phase- 4 inaugurated
+                                    </div>
+                                    <div className="sm-heading">
+                                        Jan 06, 2025
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-3">
+                            <div className="inner">
+                                <div className="img">
+                                    <Image src={div1img4} alt="div1img1" />
+                                </div>
+                                <div className="text">
+                                    <div className="heading">
+                                        Ropeways over Yamuna in Delhi soon
+                                    </div>
+                                    <div className="sm-heading">
+                                        Jan 03, 2025
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div className="related-search">
+                                        <div className="inner">
+                                          <div className="heading">
+                                          Related to your search
+                                          </div>
+                                          <div className="searches d-flex flex-wrap ">
+                                              <div className="div">
+                                                <ul className='p-0 m-0'>
+                                                    <li className='head'>
+                                                        <Link href="/">Recently Launched Projects in Delhi</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Lavish Floors By Surya Homes in Sector 8 Dwarka</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Sky High Luxury Homes in Sector 8 Dwarka</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Chandok Apartments and Floors in Janakpuri</Link>
+                                                    </li>
+                                                    <li className='boot'>
+                                                        <Link href="/">View 14 More</Link>
+                                                    </li>
+                                                </ul>
+                                              </div>
+                                              <div className="div">
+                                                <ul className='p-0 m-0'>
+                                                    <li className='head'>
+                                                        <Link href="/">About Sector 8 Dwarka</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Sector 8 Dwarka Delhi</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Property Rates in Sector 8 Dwarka Delhi</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Reviews of Sector 8 Dwarka Delhi</Link>
+                                                    </li>
+                                                   
+                                                </ul>
+                                              </div>
+                                              <div className="div">
+                                                <ul className='p-0 m-0'>
+                                                    <li className='head'>
+                                                        <Link href="/">Sector 8 Dwarka & nearby listings</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Buy 3 BHK Builder Floor in Sector 8 Dwarka</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">Buy 3 BHK Builder Floor in Sector 8 Dwarka</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/">3 BHK Semi furnished Builder Floor in A Block Sector 8 Dwarka </Link>
+                                                    </li>
+                                                    <li className='boot'>
+                                                        <Link href="/">View 14 More</Link>
+                                                    </li>
+                                                </ul>
+                                              </div>
+                                          </div>
+                                        
+                                        </div>
+                    </div>
+                    <div className="last-text">
+                        <span>
+                        The material and information contained herein is for general informational purposes only, and does not constitute an endorsement/warranty/representati
+                        </span><br />
+                        <span>
+                        A naukri.com group website
+                        </span><br />
+                        <span>
+                        Copyright © 2025 Infoedge India Ltd. All rights reserved
+                        </span>
+                    </div>
+
                 </div>
+ <div className="footer-sec">
+                          <div className="content ">
+                            <div className="row">
+                              <div className="col-12 col-md-7 left">
+                                <div className="row">
+                                  <div className="div col-4 col-md-4">
+                                    <p>Links</p>
+                                    <ul>
+                                      <li>
+                                        <Link href="/Mobileapps">Mobile Apps</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/Ourservices">Our Services</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/Pricetrends">Price Trends</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/Postyourproperty">Post your Property</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Real Estate Investments </Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Builders in India</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Area Converter</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Articles</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Rent Receipt</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Customer Service</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Sitemap</Link>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div className="div col-4 col-md-4 ">
+                                    <p>Company</p>
+                                    <ul>
+                                      <li>
+                                        <Link href="/">About us</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Contact us</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Careers with us</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Terms & Conditions</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Request Info</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Feedback</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Report a problem</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Testimonials</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Privacy Policy</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Summons/Notices</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Grievances</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Safety Guide</Link>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div className="div col-4 col-md-4">
+                                    <p>Our Partners</p>
+                                    <ul>
+                                      <li>
+                                        <Link href="/">Naukri.com - Jobs in India</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Naukrigulf.com - Jobs in middle east</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Jeevansathi.com - Matrimonials</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Brijj.com - Professional Networking</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Shiksha.com - Education Career Info </Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Policybazaar.com - Insurance India</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">PaisaBazaar.com</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">AmbitionBox.com</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">FirstNaukri.com - A jobsite for campus hiring</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Jobhai.com – Find Jobs Near You</Link>
+                                      </li>
+                                      <li>
+                                        <Link href="/">Techminis.com - Tech news on the go</Link>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                
+                
+                              </div>
+                              <div className="col-12 col-md-5 right">
+                                <div className="top">
+                                  Contact Us
+                                </div>
+                                <div className="number">
+                                  Toll Free - <Link href="/" style={{textDecoration:"none"}}>1800 41 99099 </Link>
+                                </div>
+                                <div className="time">
+                                Monday - Saturday (9:00AM to 11:00PM IST)
+                                </div>
+                                <div className="email">
+                                  Email -<Link href="/" style={{textDecoration:"none"}}> feedback@99acres.com </Link>
+                                </div>
+                                <div className="connect">
+                                  Connect with us
+                                </div>
+                                <div className="icon">
+                               <span> <FontAwesomeIcon style={{color:"blue"}} icon={faSquareFacebook} /></span>
+                               <span><FontAwesomeIcon style={{color:"#ff0000"}} icon={faSquareYoutube} /></span> 
+                               <span> <FontAwesomeIcon style={{color:"#589bff"}} icon={faSquareTwitter} /></span>
+                                </div>
+                                <div className="like d-flex">
+                                    <div className="icon">
+                                    <FontAwesomeIcon icon={faThumbsUp} /> Like
+                                    </div>
+                                    <div className="text">
+                                    You and 604 others like this. <Link href="/" style={{textDecoration:"none"}}> Sign up </Link> to see what your friends like.
+                                    </div>
+                                </div>
+                                <div className="tweet-x d-flex align-items-center">
+                                <FontAwesomeIcon icon={faXTwitter} /> Follow @99AcresIndia
+                                </div>
+                                <div className="india">
+                                * India's leading Property Portal. Source: Alexa.com<br/>
+                                # Free Listings are available only for Owners
+                                </div>
+                                <div className="download">
+                                  Mobile App
+                                </div>
+                                <div className="img">
+                                  <span><Image src={playstore} alt="playstore" /></span>
+                                  <span><Image src={appstore} alt="appstore" /></span>
+                                </div>
+                              
+                              </div>
+                            </div>
+                            <div className="usage">
+                            Usage of 99acres.com to upload content which enables targeting by religion/community/caste/race is prohibited. Please report inappropriate content by writing to us at <Link href="/" style={{textDecoration:"none"}}>Report Abuse</Link>
+                            </div>
+                          </div>
+               </div>
             </div>
+            
         </div >
     )
 }
